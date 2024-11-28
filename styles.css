@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 380px;
+}
+nav {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Forum;
+    font-weight: bold;
+}
+nav img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.brand-name {
+    margin-right: 20px;
+    font-size: 2em;
+}
+.natura {
+    color: rgb(56, 247, 31);
+}
+.heading {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background-image: url(health-foods.png);
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading p{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    text-shadow: 0px 1px 10px rgb(14, 89, 202),
+                 0px 1px 20px rgb(14, 89, 202),
+                 0px 1px 40px rgb(14, 89, 202);
+}
+content li {
+    font-weight: 600;
+}
+.content {
+    color: rgb(5, 32, 73);
+    padding-left: 60px;
+    font-size: 1.8rem;
+}
+footer {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 1);
+    background-color:  black;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 380px;
+    padding-left: 10px;
+    font-size: 1.8rem;
+    color: white;
+    font-family: forum;
+}
+.content p{
+    margin-top: 10px;
+}
+.social-icons {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+@media (min-width: 319px) and (max-width: 550px) {
+    body{
+        padding-bottom: 220px;
+    }   
+    .heading {
+        height: 250px;
+        width: 100%;
+        background-size: 100% 250px; 
+    }
+    .heading p {
+        font-size: 2em;
+    }
+    .content {
+        font-size: 1rem;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    footer {
+        height: 220px;
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .brand-name {
+        font-size: 2em;
+    }
+    .brand-name {
+        font-size: 1em;
+    }
+}
+@media (min-width: 551px) and (max-width: 700px) {
+    body{
+        padding-bottom: 260px;
+    }   
+    .heading {
+        height: 260px;
+        width: 100%;
+        background-size: 100% 260px; 
+    }
+    .heading p {
+        font-size: 2.5em;
+    }
+    .content {
+        font-size: 1.2rem;
+    }
+    footer {
+        height: 260px;
+        padding-left: 10px;
+        font-size: 1.2rem;
+    }
+    .brand-name {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    body{
+        padding-bottom: 300px;
+    }   
+    .heading {
+        height: 270px;
+        width: 100%;
+        background-size: 100% 270px; 
+    }
+    .heading p {
+        font-size: 3em;
+    }
+    .content {
+        font-size: 1.4rem;
+    }
+    footer {
+        height: 300px;
+        padding-left: 10px;
+        font-size: 1.4rem;
+    }
+    .brand-name {
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 901px) and (max-width: 1050px) {
+    body{
+        padding-bottom: 320px;
+    }   
+    .heading {
+        position: relative;
+        height: 280px;
+        width: 100%;
+        background-size: 100% 280px; 
+    }
+    .heading p {
+        font-size: 3.5em;
+    }
+    .content {
+        font-size: 1.5rem;
+    }
+    footer {
+        height: 320px;
+        padding-left: 10px;
+        font-size: 1.5rem;
+    }
+    .brand-name {
+        font-size: 1.6em;
+    }
+}
+@media (min-width: 1051px) and (max-width: 1200px) {
+    body{
+        padding-bottom: 320px;
+    }   
+    .heading {
+        position: relative;
+        height: 350px;
+        width: 100%;
+        background-size: 100% 350px; 
+    }
+    .heading p {
+        font-size: 4em;
+    }
+    .content {
+        font-size: 1.5rem;
+    }
+    footer {
+        font-size: 1.5rem;
+        height: 320px;
+        padding-left: 10px;
+    }
+    .brand-name {
+        font-size: 1.8em;
+    }
+}
